@@ -26,10 +26,10 @@ main = do
     putStrLn $ "sol2 (n=999): " ++ show (sol2 999)
     putStrLn $ "sol3 (n=999): " ++ show (sol3 999)
 
-    putStr ""
+    putStrLn ""
 
     defaultMain [
-      bgroup "Benchmark: task 1" [
+      bgroup "task 1" [
           bench "sol1 (loop and filter)" $ whnf sol1 999,
           bench "sol2 (gaps)"            $ whnf sol2 999,
           bench "sol3 (closed-form)"     $ whnf sol3 999

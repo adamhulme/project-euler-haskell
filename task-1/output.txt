@@ -21,3 +21,28 @@ mean                 158.4 ns   (157.2 ns .. 159.5 ns)
 std dev              3.892 ns   (3.152 ns .. 5.202 ns)
 variance introduced by outliers: 36% (moderately inflated)
 
+sol1 (n=999): 233168
+sol2 (n=999): 233168
+sol3 (n=999): 233168
+
+benchmarking task 1/sol1 (loop and filter)
+time                 81.24 μs   (80.79 μs .. 81.93 μs)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 81.58 μs   (81.12 μs .. 82.22 μs)
+std dev              1.803 μs   (1.418 μs .. 2.952 μs)
+variance introduced by outliers: 18% (moderately inflated)
+
+benchmarking task 1/sol2 (gaps)
+time                 21.68 μs   (21.48 μs .. 21.92 μs)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 21.74 μs   (21.57 μs .. 22.03 μs)
+std dev              720.3 ns   (455.9 ns .. 1.134 μs)
+variance introduced by outliers: 37% (moderately inflated)
+
+benchmarking task 1/sol3 (closed-form)
+time                 165.8 ns   (163.2 ns .. 168.6 ns)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 164.3 ns   (162.8 ns .. 166.2 ns)
+std dev              5.845 ns   (4.547 ns .. 7.723 ns)
+variance introduced by outliers: 54% (severely inflated)
+
