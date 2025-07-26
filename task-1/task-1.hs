@@ -1,4 +1,5 @@
 divisible n x = x `mod` n == 0
+divisible2 m n x = x `mod` m == 0 || x `mod` n == 0
 
 main :: IO ()
-main = putStrLn (show (filter (\x -> divisible 3 x || divisible 5 x) [1..999]))
+main = putStrLn (show (sum (filter (\x -> divisible2 3 5 x) [1..999])))

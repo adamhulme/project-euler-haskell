@@ -1,3 +1,4 @@
 - First of all, how tf do I do a for loop in this language? I can't?
+  - have to do function over a list i.e. sum [1..9]
 
-- Gonna need some common methods like summing lists.
+- defining functions is weird
