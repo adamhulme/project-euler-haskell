@@ -1,0 +1,23 @@
+sol1 (n=999): 233168
+sol2 (n=999): 233168
+sol3 (n=999): 233168
+benchmarking Benchmark: task 1/sol1 (loop and filter)
+time                 81.16 μs   (80.42 μs .. 82.17 μs)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 80.95 μs   (80.68 μs .. 81.39 μs)
+std dev              1.099 μs   (778.2 ns .. 1.705 μs)
+
+benchmarking Benchmark: task 1/sol2 (gaps)
+time                 20.97 μs   (20.81 μs .. 21.13 μs)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 20.98 μs   (20.88 μs .. 21.06 μs)
+std dev              314.6 ns   (259.3 ns .. 406.6 ns)
+variance introduced by outliers: 11% (moderately inflated)
+
+benchmarking Benchmark: task 1/sol3 (closed-form)
+time                 158.7 ns   (157.6 ns .. 159.9 ns)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 158.4 ns   (157.2 ns .. 159.5 ns)
+std dev              3.892 ns   (3.152 ns .. 5.202 ns)
+variance introduced by outliers: 36% (moderately inflated)
+
