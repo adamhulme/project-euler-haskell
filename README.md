@@ -5,4 +5,4 @@ Project Euler: https://projecteuler.net/profile/adamhulme-haskell.png
 
 - Goal 1: 10 problems (easy)
 - Goal 2: 25 problems (moderate) (from what I remember, haven't done proj euler since uni)
-- Goal 3: 30 problems (hard, I think)
+- Goal 3: 50 problems (hard, I think)
